@@ -22,6 +22,7 @@ export default function Sidebar({ toggleNav, userData, cartItems, logout }) {
               <li><NavLink to="wishlist">Wishlist</NavLink></li>
               <li><NavLink to="categories">Categories</NavLink></li>
               <li><NavLink to="brands">Brands</NavLink></li>
+              <li><NavLink to="allorders">All Orders</NavLink></li>
             </>
           )}
           {!userData && (
